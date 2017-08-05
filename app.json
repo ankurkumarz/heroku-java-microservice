@@ -1,0 +1,5 @@
+{
+  "name": "Java Microservice on Heroku",
+  "description": "A small java microservice for Heroku.",
+  "addons": [ "heroku-postgresql" ]
+}

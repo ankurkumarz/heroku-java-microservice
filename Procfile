@@ -1,0 +1,1 @@
+web: java -jar target/java-hello-micro-1.0.jar
