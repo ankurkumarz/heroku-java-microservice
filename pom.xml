@@ -6,7 +6,6 @@
   <groupId>com.sandbox.java.microservice</groupId>
   <artifactId>java-hello-micro</artifactId>
   <version>1.0</version>
-
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -25,7 +24,7 @@
   </properties>
 
   <dependencies>
-    <!-- Spring and Spring Boot dependencies -->
+    <!-- Spring and Spring Boot dependencies added -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
