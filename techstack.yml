@@ -2,7 +2,7 @@ repo_name: ankurkumarz/heroku-java-microservice
 report_id: 262306d14eb9c9acf79d019929f0f407
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:24:26+00:00'
+timestamp: '2024-02-29T19:01:32+00:00'
 requested_by: ankurkumarz
 provider: github
 branch: master
@@ -195,12 +195,18 @@ tools:
   last_updated_by: akum84
   last_updated_on: 2017-08-05 14:55:24.000000000 Z
   vulnerabilities:
-  - name: pgjdbc Does Not Check Class Instantiation when providing Plugin Classes
-    cve_id: CVE-2022-21724
-    cve_url: https://github.com/advisories/GHSA-v7wg-cpwc-24m4
-    detected_date: Feb 2
-    severity: high
-    first_patched: 42.2.25
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.2.28
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.2.8
   - name: PostgreSQL JDBC Driver SQL Injection in ResultSet.refreshRow() with malicious
       column names
     cve_id: CVE-2022-31197
@@ -208,6 +214,12 @@ tools:
     detected_date: Aug 7
     severity: high
     first_patched: 42.2.26
+  - name: pgjdbc Does Not Check Class Instantiation when providing Plugin Classes
+    cve_id: CVE-2022-21724
+    cve_url: https://github.com/advisories/GHSA-v7wg-cpwc-24m4
+    detected_date: Feb 2
+    severity: high
+    first_patched: 42.2.25
   - name: Improper Restriction of XML External Entity Reference
     cve_id: CVE-2020-13692
     cve_url: https://github.com/advisories/GHSA-88cc-g835-76rp
